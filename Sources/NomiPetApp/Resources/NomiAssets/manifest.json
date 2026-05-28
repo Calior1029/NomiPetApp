@@ -1,0 +1,564 @@
+{
+  "name": "Nomi Desktop Pet",
+  "version": "0.1.0",
+  "character": {
+    "id": "nomi",
+    "displayName": "Nomi",
+    "description": "A cute chibi desktop assistant with a calm sharp-eyed personality.",
+    "source": "assets/source/nomi-base.png"
+  },
+  "format": {
+    "type": "transparent-png-frame-sequence",
+    "frameSize": [
+      384,
+      512
+    ],
+    "chromaKeySource": "#FF00FF"
+  },
+  "animations": [
+    {
+      "id": "idle_breathe",
+      "name": "Idle Breathe",
+      "category": "idle",
+      "fps": 8,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/idle_breathe/000.png",
+        "assets/frames/idle_breathe/001.png",
+        "assets/frames/idle_breathe/002.png",
+        "assets/frames/idle_breathe/003.png",
+        "assets/frames/idle_breathe/004.png",
+        "assets/frames/idle_breathe/005.png",
+        "assets/frames/idle_breathe/006.png",
+        "assets/frames/idle_breathe/007.png"
+      ],
+      "preview": "assets/previews/idle_breathe.gif",
+      "rawStrip": "assets/raw-strips/idle_breathe.png",
+      "notes": "Default calm loop: breathing, blink, tiny hoodie sway."
+    },
+    {
+      "id": "look_around",
+      "name": "Look Around",
+      "category": "idle",
+      "fps": 8,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/look_around/000.png",
+        "assets/frames/look_around/001.png",
+        "assets/frames/look_around/002.png",
+        "assets/frames/look_around/003.png",
+        "assets/frames/look_around/004.png",
+        "assets/frames/look_around/005.png",
+        "assets/frames/look_around/006.png",
+        "assets/frames/look_around/007.png"
+      ],
+      "preview": "assets/previews/look_around.gif",
+      "rawStrip": "assets/raw-strips/look_around.png",
+      "notes": "Curious glance left and right."
+    },
+    {
+      "id": "walk_right",
+      "name": "Walk Right",
+      "category": "movement",
+      "fps": 10,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/walk_right/000.png",
+        "assets/frames/walk_right/001.png",
+        "assets/frames/walk_right/002.png",
+        "assets/frames/walk_right/003.png",
+        "assets/frames/walk_right/004.png",
+        "assets/frames/walk_right/005.png",
+        "assets/frames/walk_right/006.png",
+        "assets/frames/walk_right/007.png"
+      ],
+      "preview": "assets/previews/walk_right.gif",
+      "rawStrip": "assets/raw-strips/walk_right.png",
+      "notes": "Small chibi walking loop to the right."
+    },
+    {
+      "id": "walk_left",
+      "name": "Walk Left",
+      "category": "movement",
+      "fps": 10,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/walk_left/000.png",
+        "assets/frames/walk_left/001.png",
+        "assets/frames/walk_left/002.png",
+        "assets/frames/walk_left/003.png",
+        "assets/frames/walk_left/004.png",
+        "assets/frames/walk_left/005.png",
+        "assets/frames/walk_left/006.png",
+        "assets/frames/walk_left/007.png"
+      ],
+      "preview": "assets/previews/walk_left.gif",
+      "rawStrip": "assets/raw-strips/walk_left.png",
+      "notes": "Small chibi walking loop to the left."
+    },
+    {
+      "id": "run_right",
+      "name": "Run Right",
+      "category": "movement",
+      "fps": 12,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/run_right/000.png",
+        "assets/frames/run_right/001.png",
+        "assets/frames/run_right/002.png",
+        "assets/frames/run_right/003.png",
+        "assets/frames/run_right/004.png",
+        "assets/frames/run_right/005.png",
+        "assets/frames/run_right/006.png",
+        "assets/frames/run_right/007.png"
+      ],
+      "preview": "assets/previews/run_right.gif",
+      "rawStrip": "assets/raw-strips/run_right.png",
+      "notes": "Fast cute dash to the right."
+    },
+    {
+      "id": "run_left",
+      "name": "Run Left",
+      "category": "movement",
+      "fps": 12,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/run_left/000.png",
+        "assets/frames/run_left/001.png",
+        "assets/frames/run_left/002.png",
+        "assets/frames/run_left/003.png",
+        "assets/frames/run_left/004.png",
+        "assets/frames/run_left/005.png",
+        "assets/frames/run_left/006.png",
+        "assets/frames/run_left/007.png"
+      ],
+      "preview": "assets/previews/run_left.gif",
+      "rawStrip": "assets/raw-strips/run_left.png",
+      "notes": "Fast cute dash to the left."
+    },
+    {
+      "id": "jump",
+      "name": "Jump",
+      "category": "movement",
+      "fps": 10,
+      "loop": false,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/jump/000.png",
+        "assets/frames/jump/001.png",
+        "assets/frames/jump/002.png",
+        "assets/frames/jump/003.png",
+        "assets/frames/jump/004.png",
+        "assets/frames/jump/005.png",
+        "assets/frames/jump/006.png",
+        "assets/frames/jump/007.png"
+      ],
+      "preview": "assets/previews/jump.gif",
+      "rawStrip": "assets/raw-strips/jump.png",
+      "notes": "Anticipation, lift, peak, descent, settle."
+    },
+    {
+      "id": "wave",
+      "name": "Wave",
+      "category": "social",
+      "fps": 9,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/wave/000.png",
+        "assets/frames/wave/001.png",
+        "assets/frames/wave/002.png",
+        "assets/frames/wave/003.png",
+        "assets/frames/wave/004.png",
+        "assets/frames/wave/005.png",
+        "assets/frames/wave/006.png",
+        "assets/frames/wave/007.png"
+      ],
+      "preview": "assets/previews/wave.gif",
+      "rawStrip": "assets/raw-strips/wave.png",
+      "notes": "Friendly small wave."
+    },
+    {
+      "id": "happy",
+      "name": "Happy",
+      "category": "emotion",
+      "fps": 10,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/happy/000.png",
+        "assets/frames/happy/001.png",
+        "assets/frames/happy/002.png",
+        "assets/frames/happy/003.png",
+        "assets/frames/happy/004.png",
+        "assets/frames/happy/005.png",
+        "assets/frames/happy/006.png",
+        "assets/frames/happy/007.png"
+      ],
+      "preview": "assets/previews/happy.gif",
+      "rawStrip": "assets/raw-strips/happy.png",
+      "notes": "Bright happy bounce."
+    },
+    {
+      "id": "pout",
+      "name": "Pout",
+      "category": "emotion",
+      "fps": 8,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/pout/000.png",
+        "assets/frames/pout/001.png",
+        "assets/frames/pout/002.png",
+        "assets/frames/pout/003.png",
+        "assets/frames/pout/004.png",
+        "assets/frames/pout/005.png",
+        "assets/frames/pout/006.png",
+        "assets/frames/pout/007.png"
+      ],
+      "preview": "assets/previews/pout.gif",
+      "rawStrip": "assets/raw-strips/pout.png",
+      "notes": "Cute annoyed pout, tsundere but harmless."
+    },
+    {
+      "id": "thinking",
+      "name": "Thinking",
+      "category": "work",
+      "fps": 8,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/thinking/000.png",
+        "assets/frames/thinking/001.png",
+        "assets/frames/thinking/002.png",
+        "assets/frames/thinking/003.png",
+        "assets/frames/thinking/004.png",
+        "assets/frames/thinking/005.png",
+        "assets/frames/thinking/006.png",
+        "assets/frames/thinking/007.png"
+      ],
+      "preview": "assets/previews/thinking.gif",
+      "rawStrip": "assets/raw-strips/thinking.png",
+      "notes": "Head tilt, focused eyes, hand near chin."
+    },
+    {
+      "id": "working",
+      "name": "Working",
+      "category": "work",
+      "fps": 10,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/working/000.png",
+        "assets/frames/working/001.png",
+        "assets/frames/working/002.png",
+        "assets/frames/working/003.png",
+        "assets/frames/working/004.png",
+        "assets/frames/working/005.png",
+        "assets/frames/working/006.png",
+        "assets/frames/working/007.png"
+      ],
+      "preview": "assets/previews/working.gif",
+      "rawStrip": "assets/raw-strips/working.png",
+      "notes": "Fast task-processing body language."
+    },
+    {
+      "id": "waiting",
+      "name": "Waiting",
+      "category": "system",
+      "fps": 8,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/waiting/000.png",
+        "assets/frames/waiting/001.png",
+        "assets/frames/waiting/002.png",
+        "assets/frames/waiting/003.png",
+        "assets/frames/waiting/004.png",
+        "assets/frames/waiting/005.png",
+        "assets/frames/waiting/006.png",
+        "assets/frames/waiting/007.png"
+      ],
+      "preview": "assets/previews/waiting.gif",
+      "rawStrip": "assets/raw-strips/waiting.png",
+      "notes": "Patient attention request."
+    },
+    {
+      "id": "sleep",
+      "name": "Sleep",
+      "category": "rest",
+      "fps": 6,
+      "loop": true,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/sleep/000.png",
+        "assets/frames/sleep/001.png",
+        "assets/frames/sleep/002.png",
+        "assets/frames/sleep/003.png",
+        "assets/frames/sleep/004.png",
+        "assets/frames/sleep/005.png",
+        "assets/frames/sleep/006.png",
+        "assets/frames/sleep/007.png"
+      ],
+      "preview": "assets/previews/sleep.gif",
+      "rawStrip": "assets/raw-strips/sleep.png",
+      "notes": "Sleepy loop."
+    },
+    {
+      "id": "wake_up",
+      "name": "Wake Up",
+      "category": "rest",
+      "fps": 8,
+      "loop": false,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/wake_up/000.png",
+        "assets/frames/wake_up/001.png",
+        "assets/frames/wake_up/002.png",
+        "assets/frames/wake_up/003.png",
+        "assets/frames/wake_up/004.png",
+        "assets/frames/wake_up/005.png",
+        "assets/frames/wake_up/006.png",
+        "assets/frames/wake_up/007.png"
+      ],
+      "preview": "assets/previews/wake_up.gif",
+      "rawStrip": "assets/raw-strips/wake_up.png",
+      "notes": "Wake, blink, stretch, ready."
+    },
+    {
+      "id": "stretch",
+      "name": "Stretch",
+      "category": "rest",
+      "fps": 8,
+      "loop": false,
+      "frameSize": [
+        384,
+        512
+      ],
+      "frames": [
+        "assets/frames/stretch/000.png",
+        "assets/frames/stretch/001.png",
+        "assets/frames/stretch/002.png",
+        "assets/frames/stretch/003.png",
+        "assets/frames/stretch/004.png",
+        "assets/frames/stretch/005.png",
+        "assets/frames/stretch/006.png",
+        "assets/frames/stretch/007.png"
+      ],
+      "preview": "assets/previews/stretch.gif",
+      "rawStrip": "assets/raw-strips/stretch.png",
+      "notes": "Small morning stretch."
+    },
+    {
+      "id": "concerned",
+      "name": "Concerned",
+      "category": "emotion",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        "assets/frames/concerned/000.png",
+        "assets/frames/concerned/001.png",
+        "assets/frames/concerned/002.png",
+        "assets/frames/concerned/003.png",
+        "assets/frames/concerned/004.png",
+        "assets/frames/concerned/005.png",
+        "assets/frames/concerned/006.png",
+        "assets/frames/concerned/007.png"
+      ],
+      "preview": "assets/previews/concerned.gif",
+      "rawStrip": "assets/raw-strips/concerned.png",
+      "notes": "Failed or stalled task: restrained worried hand-to-mouth loop."
+    },
+    {
+      "id": "nod",
+      "name": "Nod",
+      "category": "social",
+      "fps": 8,
+      "loop": false,
+      "frames": [
+        "assets/frames/nod/000.png",
+        "assets/frames/nod/001.png",
+        "assets/frames/nod/002.png",
+        "assets/frames/nod/003.png",
+        "assets/frames/nod/004.png",
+        "assets/frames/nod/005.png",
+        "assets/frames/nod/006.png",
+        "assets/frames/nod/007.png"
+      ],
+      "preview": "assets/previews/nod.gif",
+      "rawStrip": "assets/raw-strips/nod.png",
+      "notes": "Completed/caring response: small restrained nod one-shot."
+    },
+    {
+      "id": "eat",
+      "name": "Eat / Drink",
+      "category": "ambient",
+      "fps": 8,
+      "loop": false,
+      "frames": [
+        "assets/frames/eat/000.png",
+        "assets/frames/eat/001.png",
+        "assets/frames/eat/002.png",
+        "assets/frames/eat/003.png",
+        "assets/frames/eat/004.png",
+        "assets/frames/eat/005.png",
+        "assets/frames/eat/006.png",
+        "assets/frames/eat/007.png"
+      ],
+      "preview": "assets/previews/eat.gif",
+      "rawStrip": "assets/raw-strips/eat.png",
+      "notes": "Water or snack reminder: tiny drink prop and satisfied return."
+    },
+    {
+      "id": "dance",
+      "name": "Dance",
+      "category": "ambient",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        "assets/frames/dance/000.png",
+        "assets/frames/dance/001.png",
+        "assets/frames/dance/002.png",
+        "assets/frames/dance/003.png",
+        "assets/frames/dance/004.png",
+        "assets/frames/dance/005.png",
+        "assets/frames/dance/006.png",
+        "assets/frames/dance/007.png"
+      ],
+      "preview": "assets/previews/dance.gif",
+      "rawStrip": "assets/raw-strips/dance.png",
+      "notes": "Music detected: subtle side-to-side rhythm loop."
+    },
+    {
+      "id": "headpat",
+      "name": "Headpat",
+      "category": "interaction",
+      "fps": 8,
+      "loop": false,
+      "frames": [
+        "assets/frames/headpat/000.png",
+        "assets/frames/headpat/001.png",
+        "assets/frames/headpat/002.png",
+        "assets/frames/headpat/003.png",
+        "assets/frames/headpat/004.png",
+        "assets/frames/headpat/005.png",
+        "assets/frames/headpat/006.png",
+        "assets/frames/headpat/007.png"
+      ],
+      "preview": "assets/previews/headpat.gif",
+      "rawStrip": "assets/raw-strips/headpat.png",
+      "notes": "Right-click headpat: shy and comfortable one-shot."
+    },
+    {
+      "id": "shrug",
+      "name": "Shrug",
+      "category": "emotion",
+      "fps": 8,
+      "loop": false,
+      "frames": [
+        "assets/frames/shrug/000.png",
+        "assets/frames/shrug/001.png",
+        "assets/frames/shrug/002.png",
+        "assets/frames/shrug/003.png",
+        "assets/frames/shrug/004.png",
+        "assets/frames/shrug/005.png",
+        "assets/frames/shrug/006.png",
+        "assets/frames/shrug/007.png"
+      ],
+      "preview": "assets/previews/shrug.gif",
+      "rawStrip": "assets/raw-strips/shrug.png",
+      "notes": "Uncertain or casual response: restrained shrug one-shot."
+    },
+    {
+      "id": "peek",
+      "name": "Peek",
+      "category": "ambient",
+      "fps": 8,
+      "loop": false,
+      "frames": [
+        "assets/frames/peek/000.png",
+        "assets/frames/peek/001.png",
+        "assets/frames/peek/002.png",
+        "assets/frames/peek/003.png",
+        "assets/frames/peek/004.png",
+        "assets/frames/peek/005.png",
+        "assets/frames/peek/006.png",
+        "assets/frames/peek/007.png"
+      ],
+      "preview": "assets/previews/peek.gif",
+      "rawStrip": "assets/raw-strips/peek.png",
+      "notes": "Quiet patrol: side peek and return one-shot."
+    },
+    {
+      "id": "worried",
+      "name": "Worried",
+      "category": "emotion",
+      "fps": 8,
+      "loop": true,
+      "frames": [
+        "assets/frames/worried/000.png",
+        "assets/frames/worried/001.png",
+        "assets/frames/worried/002.png",
+        "assets/frames/worried/003.png",
+        "assets/frames/worried/004.png",
+        "assets/frames/worried/005.png",
+        "assets/frames/worried/006.png",
+        "assets/frames/worried/007.png"
+      ],
+      "preview": "assets/previews/worried.gif",
+      "rawStrip": "assets/raw-strips/worried.png",
+      "notes": "Late-night or tiredness: arms-crossed caring worry loop."
+    }
+  ]
+}
