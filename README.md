@@ -4,7 +4,9 @@
 >
 > 一个会读懂 Codex / Claude 工作状态的 macOS 桌面宠物。
 
-![Nomi runtime preview](nomi-runtime-check.png)
+<p align="center">
+  <img src="nomi-standing.png" alt="Nomi standing" width="280">
+</p>
 
 [Download DMG](https://github.com/Calior1029/NomiPetApp/releases/latest) · [Source Code](https://github.com/Calior1029/NomiPetApp) · [English](#english) · [中文](#中文介绍)
 
