@@ -1,4 +1,4 @@
-# NomiPetApp
+# NomiPetApp: Codex & Claude Code - The Ultimate Support Tool
 
 > A tiny macOS desktop pet that makes your AI work feel alive.
 >
